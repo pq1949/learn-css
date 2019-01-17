@@ -1,20 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Flex 练习</title>
   <style>
-
-    html,body {
+    html,
+    body {
       height: 100%;
       background: #F4F5D6;
+      font-family: 'Microsoft Yahei', sans-serif;
     }
 
-    .demo {
-      height: 400px;
-      width: 800px;
+    body {
+      margin: 20px auto;
+      width: 80%;
+      min-width: 600px;
+    }
+
+    footer {
+      height: 100px;
+      color: #000;
+      font-size: 14px;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      border-bottom: 1px solid #d3d3d3;
+      margin: 10px 0;
+      color: #000;
+    }
+
+    p {
+      font-size: 14px;
+      background: rgba(0, 0, 0, .5);
+      padding: 10px;
+      border-radius: 10px;
+      color: #fff;
+      line-height: 2;
+    }
+
+    code {
+      border-radius: 10px;
+    }
+
+    a {
+      color: #FFD200;
+    }
+
+    .color-1 {
+      background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    }
+
+    .color-2 {
+      background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    }
+
+    .color-3 {
+      background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    }
+
+    .color-4 {
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    }
+
+    .color-5 {
+      background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    }
+
+    .color-6 {
+      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+
+    .color-7 {
+      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+
+    .color-8 {
+      background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    }
+
+    .box {
       margin: 10px auto;
       background: #f5f2f0;
       border-radius: 16px;
@@ -22,30 +92,6 @@
       display: flex;
     }
 
-    .color1 {
-      background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-    }
-    .color2 {
-      background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    }
-    .color3 {
-      background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-    }
-    .color4 {
-      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-    }
-    .color5 {
-      background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    }
-    .color6 {
-      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-    }
-    .color7 {
-      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    }
-    .color8 {
-      background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
-    }
 
     .item {
       width: 200px;
@@ -56,27 +102,159 @@
       text-align: center;
       margin: 5px;
     }
-
-    .demo1 {
-      flex-direction: row;
-    }
   </style>
 </head>
-<!-- http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
-http://static.vgee.cn/static/index.html
-https://github.com/JailBreakC/flex-box-demo/blob/master/index.html
-https://github.com/JailBreakC/flex-box-demo/blob/master/style.css -->
 
 <body>
-  <div class="demo demo1">
-      <div class="item color1">1</div>
-      <div class="item color2">2</div>
-      <div class="item color3">3</div>
-      <div class="item color4">4</div>
-      <div class="item color5">5</div>
-      <div class="item color6">6</div>
-      <div class="item color7">7</div>
-      <div class="item color8">8</div>
+  <h1>Flex 布局练习</h1>
+  <p>
+    参考链接<br>
+    <a target="_blank" href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html</a><br>
+    <a target="_blank" href="http://static.vgee.cn/static/index.html">http://static.vgee.cn/static/index.html</a><br>
+    <a target="_blank" href="https://github.com/JailBreakC/flex-box-demo/blob/master/index.html">https://github.com/JailBreakC/flex-box-demo/blob/master/index.html</a><br>
+    <a target="_blank" href="https://github.com/JailBreakC/flex-box-demo/blob/master/style.css">https://github.com/JailBreakC/flex-box-demo/blob/master/style.css</a><br>
+  </p>
+  <h2>
+    容器的属性
+  </h2>
+  <ul>
+    <li>flex-direction</li>
+    <li>flex-wrap</li>
+    <li>flex-flow</li>
+    <li>justify-content</li>
+    <li>align-items</li>
+    <li>align-content</li>
+  </ul>
+  <h3>
+    1. flex-direction
+  </h3>
+  <!-- ================================= -->
+  <p>
+    flex-direction属性决定主轴的方向（即项目的排列方向）。<br>
+    .box {
+    flex-direction: row (默认值）| row-reverse | column | column-reverse;
+    }
+  </p>
+  <pre>
+    <code class="css">
+    .box {
+      display: flex;
+      flex-direction: row;
+    }
+    </code>
+  </pre>
+  <div class="box" style="flex-direction: row">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
   </div>
+  <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+    </code>
+  </pre>
+  <div class="box" style="flex-direction: row-reverse">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          flex-direction: column;
+        }
+      </code>
+    </pre>
+  <div class="box" style="flex-direction: column">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-direction: column-reverse;
+          }
+        </code>
+      </pre>
+  <div class="box" style="flex-direction: column-reverse">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <!-- ================================= -->
+  <h3>2. flex-wrap属性</h3>
+  <p>默认情况下，项目都排在一条线（又称"轴线"）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。
+    <br>
+    .box{
+    flex-wrap: nowrap (默认值）| wrap | wrap-reverse;
+    }
+  </p>
+  <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+    </code>
+  </pre>
+  <div class="box" style="flex-wrap: nowrap; width:420px;">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      </code>
+    </pre>
+  <div class="box" style="flex-wrap: wrap; width:420px;">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap-reverse;
+          }
+        </code>
+      </pre>
+  <div class="box" style="flex-wrap: wrap-reverse; width:420px;">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <!-- ================================= -->
+<h3>3. flex-flow</h3>
+<p>flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。<br>
+  .box {
+    flex-flow: <flex-direction> || <flex-wrap>;
+  }
+
+</p>
+  <footer>End</footer>
 </body>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/styles/monokai-sublime.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
 </html>
