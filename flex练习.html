@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex 练习</title>
+  <style>
+
+    html,body {
+      height: 100%;
+      background: #F4F5D6;
+    }
+
+    .demo {
+      height: 400px;
+      width: 800px;
+      margin: 10px auto;
+      background: #f5f2f0;
+      border-radius: 16px;
+      border: 4px solid #e0dfcc;
+      display: flex;
+    }
+
+    .color1 {
+      background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    }
+    .color2 {
+      background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    }
+    .color3 {
+      background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    }
+    .color4 {
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    }
+    .color5 {
+      background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    }
+    .color6 {
+      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+    .color7 {
+      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    .color8 {
+      background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    }
+
+    .item {
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      color: #fff;
+      font-size: 100px;
+      text-align: center;
+      margin: 5px;
+    }
+
+    .demo1 {
+      flex-direction: row;
+    }
+  </style>
+</head>
+<!-- http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+http://static.vgee.cn/static/index.html
+https://github.com/JailBreakC/flex-box-demo/blob/master/index.html
+https://github.com/JailBreakC/flex-box-demo/blob/master/style.css -->
+
+<body>
+  <div class="demo demo1">
+      <div class="item color1">1</div>
+      <div class="item color2">2</div>
+      <div class="item color3">3</div>
+      <div class="item color4">4</div>
+      <div class="item color5">5</div>
+      <div class="item color6">6</div>
+      <div class="item color7">7</div>
+      <div class="item color8">8</div>
+  </div>
+</body>
+</html>
