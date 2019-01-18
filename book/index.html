@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<style>
+  html,body {
+    height: 100%;
+    background: #F4F5D6;
+  }
+  #output {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  a {
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    background: #fff;
+    margin: 10px;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 15px;
+    text-decoration:none;
+    outline:none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .desc, #total {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+</style>
+
+<body>
+
+<div class="desc">
+  <h1>在线书籍</h1>
+  <p>原始网站:<a href="http://susouth-1256758960.cos.ap-guangzhou.myqcloud.com/" target="_blank">http://susouth-1256758960.cos.ap-guangzhou.myqcloud.com/</a></p>
+  <p>工具:<a href="https://www.bejson.com/xml2json/" target="_blank">https://www.bejson.com/xml2json/</a></p>
+</div>
+<div id="total"></div>
+<div id="output"></div>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script type="text/babel">
+  function parseData(books) {
+    const contents = books.ListBucketResult.Contents
+    const host = 'http://susouth-1256758960.cos.ap-guangzhou.myqcloud.com/'
+    const pdfs = []
+    contents.map(item => {
+    const key = host + item.Key
+    if(/.pdf$/i.test(key)) {
+      pdfs.push(key)
+      // console.log(key)
+      }
+    })
+    return pdfs
+  }
+  function randomHexColor() {
+	return '#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).substr(-6);
+  }
+  fetch('./test.json').then(res => res.json()).then(books => {
+    const pdfs = parseData(books)
+    const root = document.getElementById('output')
+    document.getElementById('total').innerHTML = `<h5>总数: ${pdfs.length}</h5>`
+    pdfs.forEach(item => {
+      const a = document.createElement('a')
+      const text = document.createTextNode(item.slice(item.lastIndexOf('/') + 1))
+      a.appendChild(text)
+      a.setAttribute('href', item)
+      a.setAttribute('target', '_blank')
+      a.setAttribute('style', `color:${randomHexColor()}`)
+      root.appendChild(a)
+      root.appendChild(document.createElement('br'))
+    })
+  })
+
+</script>
+</body>
+
+</html>

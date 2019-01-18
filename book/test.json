@@ -1,0 +1,1713 @@
+{
+	"ListBucketResult": {
+		"Name": "susouth-1256758960",
+		"MaxKeys": "1000",
+		"IsTruncated": "false",
+		"Contents": [{
+				"Key": "read-applets/",
+				"LastModified": "2018-11-11T03:25:25.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/",
+				"LastModified": "2018-11-11T03:46:11.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/AngularJS实战.pdf",
+				"LastModified": "2018-12-08T06:34:01.000Z",
+				"ETag": "\"49a6d8ebd445416f585d2e480298ac86-8\"",
+				"Size": "65731695",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/AngularJS权威教程(中文版).PDF",
+				"LastModified": "2018-12-08T06:31:21.000Z",
+				"ETag": "\"cd9945e2fce12b15c43e7fdfa30d69d6-3\"",
+				"Size": "20950876",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/HTML5与CSS3基础教程（第8版）.pdf",
+				"LastModified": "2018-11-11T03:59:11.000Z",
+				"ETag": "\"24f396b8b9ddac2472a0f11c6cf9d762-10\"",
+				"Size": "75717438",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/JavaScriptDOM编程艺术第2版.pdf",
+				"LastModified": "2018-11-11T03:46:32.000Z",
+				"ETag": "\"e4cee80e33af59e6c70b7631f081e7f7-110\"",
+				"Size": "114814992",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/JavaScript权威指南(第6版).pdf",
+				"LastModified": "2018-12-07T04:46:02.000Z",
+				"ETag": "\"a294ac7b1a2e18a5aedd4a56287fbd41-3\"",
+				"Size": "23970837",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/JavaScript设计模式.pdf",
+				"LastModified": "2018-11-12T11:33:04.000Z",
+				"ETag": "\"c7892445d4f14c12f5e71f01b1e795cf-5\"",
+				"Size": "39346343",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/JavaScript设计模式与开发实践.pdf",
+				"LastModified": "2018-12-07T04:46:07.000Z",
+				"ETag": "\"1112e159e90fb4906015f1885302c3ba-2\"",
+				"Size": "8746708",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/Node Web开发.pdf",
+				"LastModified": "2018-11-11T03:59:17.000Z",
+				"ETag": "\"879c41dc31216537a6f1e79a1b0245cb-2\"",
+				"Size": "12180675",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/Node.js入门经典.pdf",
+				"LastModified": "2018-11-11T03:50:11.000Z",
+				"ETag": "\"2fce74e4d454bf04768f6f543bf4ba4c-3\"",
+				"Size": "20942729",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/Oreilly.Ajax.The.Definitive.Guide.Jan.2008.pdf",
+				"LastModified": "2018-11-11T03:49:59.000Z",
+				"ETag": "\"9728916e17bd3de42b068deb027b449c-2\"",
+				"Size": "13974892",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/TCP-IP详解卷2：实现.pdf",
+				"LastModified": "2018-11-11T03:50:56.000Z",
+				"ETag": "\"a8b88925e59d5adf736c862130d4580d-3\"",
+				"Size": "24930354",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/Vue.js权威指南-压缩版.pdf",
+				"LastModified": "2018-12-09T02:29:54.000Z",
+				"ETag": "\"93f56cce36ed2c92635d7abeccdf3d03-4\"",
+				"Size": "31460364",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/WebGL编程指南.pdf",
+				"LastModified": "2018-11-11T03:46:32.000Z",
+				"ETag": "\"2926f9a88a564e4f8325978e9188a1c0-82\"",
+				"Size": "85204246",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/Web安全开发指南.pdf",
+				"LastModified": "2018-11-11T03:50:18.000Z",
+				"ETag": "\"d09f4a9b8683d06002fc1883d1efda5a-2\"",
+				"Size": "11206075",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/jQuery权威指南.pdf",
+				"LastModified": "2018-11-11T03:59:15.000Z",
+				"ETag": "\"8d17914d8b7d8f675af4afd64396fe32-3\"",
+				"Size": "20578697",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/javascript高级程序设计.pdf",
+				"LastModified": "2018-12-08T06:35:47.000Z",
+				"ETag": "\"e5c2a9e80f7b7eb9d3176b479a7cb460-3\"",
+				"Size": "24987811",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/前端架构设计中文.pdf",
+				"LastModified": "2018-11-11T03:54:02.000Z",
+				"ETag": "\"625a7016752184ad49282221e0f45fda-2\"",
+				"Size": "9248309",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/响应式Web设计 HTML5和CSS3实战 第2版.pdf",
+				"LastModified": "2018-11-11T03:55:53.000Z",
+				"ETag": "\"8b07d7b9ecc4f9e19562224fb0426d73-2\"",
+				"Size": "12250346",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/大话数据结构.pdf",
+				"LastModified": "2018-11-11T03:53:06.000Z",
+				"ETag": "\"87d08244a39101ab193090339a485165-7\"",
+				"Size": "51521335",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/学习JavaScript数据结构与算法.pdf",
+				"LastModified": "2018-12-07T04:44:55.000Z",
+				"ETag": "\"a8288fb09fcf0730702bf66335768191-2\"",
+				"Size": "10798750",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/数据库管理.rar",
+				"LastModified": "2018-11-11T03:55:23.000Z",
+				"ETag": "\"5f9295059bbd3db71794e1b6a0c0fe62-4\"",
+				"Size": "31017021",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/数据结构与算法JavaScript描述.pdf",
+				"LastModified": "2018-11-12T07:48:10.000Z",
+				"ETag": "\"b99d6b8991e71c3220b1a2200451b5ee\"",
+				"Size": "5103500",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/深入React技术栈.pdf",
+				"LastModified": "2018-11-11T03:54:53.000Z",
+				"ETag": "\"8310257c7b99ad0476fb125ec12a0c11-2\"",
+				"Size": "10035163",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/深入学习MongoDB.pdf",
+				"LastModified": "2018-11-11T03:54:51.000Z",
+				"ETag": "\"b0202b401fbd3e5dededff47b4efe94a-2\"",
+				"Size": "10704656",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/深入浅出Rxjs.pdf",
+				"LastModified": "2018-12-09T02:31:47.000Z",
+				"ETag": "\"26d0edda61cd1f567ba6967aa72dda6f-3\"",
+				"Size": "18818696",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/算法谜题.pdf",
+				"LastModified": "2018-11-11T03:55:29.000Z",
+				"ETag": "\"60a5f17d2fe8cf64d6f9d4ebb2372562-2\"",
+				"Size": "12807898",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/精通D3.js交互式数据可视化高级编程.pdf",
+				"LastModified": "2018-11-11T03:54:04.000Z",
+				"ETag": "\"82db1c8d32ff373883277b3d5dc0e3f6-7\"",
+				"Size": "51346504",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/精通Git 第二版 中文版_v2.1.8_ZeroD.pdf",
+				"LastModified": "2018-11-11T03:53:16.000Z",
+				"ETag": "\"ec6a42227beed3c0eb77f1c95fdb1802-2\"",
+				"Size": "13186098",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/精通JavaScript开发.pdf",
+				"LastModified": "2018-11-11T03:53:53.000Z",
+				"ETag": "\"c77e08f55c9d77afa727fcd7b0685d80-2\"",
+				"Size": "16249344",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/线性代数应该这样学.pdf",
+				"LastModified": "2018-11-11T03:55:54.000Z",
+				"ETag": "\"e5271472ed1ae3becc0d18728c6b730e-2\"",
+				"Size": "14663538",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/经典思维50法.pdf",
+				"LastModified": "2018-11-11T03:50:57.000Z",
+				"ETag": "\"375a301d2ec3f4dd26f563e0cd7ec37f\"",
+				"Size": "8079257",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/编写高质量代码--Web前端开发修炼之道.pdf",
+				"LastModified": "2018-11-11T03:52:07.000Z",
+				"ETag": "\"eb6fdbdcaa404de09084fcd087ab9355-3\"",
+				"Size": "18351294",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/计算机科学的基础.pdf",
+				"LastModified": "2018-11-11T03:53:48.000Z",
+				"ETag": "\"52b51d9a0e7fc60750bbe8de594226a2-2\"",
+				"Size": "14546304",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/frontend/锋利的jQuery.pdf",
+				"LastModified": "2018-11-11T03:52:41.000Z",
+				"ETag": "\"b5841d5738488e9e34b534e909f273c4-6\"",
+				"Size": "42822538",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/",
+				"LastModified": "2018-11-11T08:07:28.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/Java并发编程实战.pdf",
+				"LastModified": "2018-11-11T09:22:25.000Z",
+				"ETag": "\"75a58b2740273e773cb4772f2a75171d-4\"",
+				"Size": "26785435",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/Java性能权威指南.pdf",
+				"LastModified": "2018-11-11T09:21:25.000Z",
+				"ETag": "\"ccd10bc263b9b4434ed5ff7cd63b9dda-9\"",
+				"Size": "69351874",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/MySQL高性能书籍_第3版（中文）.pdf",
+				"LastModified": "2018-11-11T09:21:53.000Z",
+				"ETag": "\"138a7d954a0b67db2271e63fd2120082-10\"",
+				"Size": "75819987",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/SpringBoot实战第4版清晰版.pdf",
+				"LastModified": "2018-11-20T04:43:47.000Z",
+				"ETag": "\"8bc950d33b3e59f7c22f06551d0699b5-2\"",
+				"Size": "9458870",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/dubbo-用户指南.pdf",
+				"LastModified": "2018-11-11T09:22:23.000Z",
+				"ETag": "\"51b99dc6b41e2c2a77fd5dbb95de66bb-3\"",
+				"Size": "18170258",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/看透Spring MVC源代码分析与实践.pdf",
+				"LastModified": "2018-11-11T09:56:19.000Z",
+				"ETag": "\"355606589859852d1710d20696d4f013-8\"",
+				"Size": "60580755",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/阿里巴巴Java开发手册1.4.pdf",
+				"LastModified": "2018-11-20T04:43:23.000Z",
+				"ETag": "\"389c3b3079459d553a01061fb41eab17\"",
+				"Size": "1163395",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/java/鸟哥的Linux私房菜基础篇第三版.pdf",
+				"LastModified": "2018-11-11T09:21:54.000Z",
+				"ETag": "\"ea71a5bf95a1eab764184cddef4eccde-5\"",
+				"Size": "34149486",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/test/",
+				"LastModified": "2018-11-11T08:07:33.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/test/PYTHON WEB开发学习实录.pdf",
+				"LastModified": "2018-11-11T09:20:12.000Z",
+				"ETag": "\"67f594d597e8eff6cd0ca4227bcd04a5-8\"",
+				"Size": "65115756",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/test/PYTHON网络编程基础.pdf",
+				"LastModified": "2018-11-11T09:16:57.000Z",
+				"ETag": "\"82530d201ceff88f760ff6db6687db52-4\"",
+				"Size": "27284360",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/test/Python编程：从入门到实践.pdf",
+				"LastModified": "2018-11-11T09:17:11.000Z",
+				"ETag": "\"c25edc13495823871fc7e6206ebc6199-3\"",
+				"Size": "24313205",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/test/大型网站技术架构：核心原理与案例分析.pdf",
+				"LastModified": "2018-11-11T09:22:08.000Z",
+				"ETag": "\"9f422948cb6b9efeaa58fa8cc2a8e54c-9\"",
+				"Size": "73778078",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-applets/test/持续集成软件质量改进和风险降低之道.pdf",
+				"LastModified": "2018-11-11T09:16:49.000Z",
+				"ETag": "\"3e51489fe4e67bb26c8c987e8629df2c-3\"",
+				"Size": "22621547",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/",
+				"LastModified": "2018-11-11T03:26:04.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/",
+				"LastModified": "2018-11-11T09:18:27.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/",
+				"LastModified": "2018-11-24T07:39:07.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/author.png",
+				"LastModified": "2018-11-24T07:39:13.000Z",
+				"ETag": "\"821fd1e65b3916ae0fedae69d81b7cd6\"",
+				"Size": "346165",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/example.png",
+				"LastModified": "2018-11-24T07:39:09.000Z",
+				"ETag": "\"896df0f2970938bafc7009ce37b7299a\"",
+				"Size": "23573",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/gzh-code.png",
+				"LastModified": "2018-11-24T07:39:12.000Z",
+				"ETag": "\"821b15c0f64241fbcec7a2f90aed4064\"",
+				"Size": "12077",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/gzh-code2.png",
+				"LastModified": "2018-11-24T07:39:08.000Z",
+				"ETag": "\"2854b946a37c11513b30efeff3e3be14\"",
+				"Size": "21122",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/qq.png",
+				"LastModified": "2018-11-24T07:39:09.000Z",
+				"ETag": "\"9df04a9f23714f3f78e6df804fd241ca\"",
+				"Size": "7244",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/about/sponsor.png",
+				"LastModified": "2018-11-24T07:39:10.000Z",
+				"ETag": "\"f8d6ae17a000cdacce3c4293f7200476\"",
+				"Size": "43707",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/",
+				"LastModified": "2018-11-24T02:52:17.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar01.png",
+				"LastModified": "2018-11-24T02:52:17.000Z",
+				"ETag": "\"f5286e5cf5bbbf7aa6edafcd820463f3\"",
+				"Size": "4753",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar02.png",
+				"LastModified": "2018-11-24T02:52:17.000Z",
+				"ETag": "\"4351af727ea80c9d87b074bc60576f4d\"",
+				"Size": "18612",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar03.png",
+				"LastModified": "2018-11-24T02:52:17.000Z",
+				"ETag": "\"2e1dc0375a22da2f4f639fa469c9803e\"",
+				"Size": "31956",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar04.png",
+				"LastModified": "2018-11-24T02:52:17.000Z",
+				"ETag": "\"42fb09fba886c33090e88a09e9f43b8b\"",
+				"Size": "19399",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar05.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"b56eebffcee029b4ed2d4672cdae4a28\"",
+				"Size": "6055",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar06.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"465b7b9ca9f57c9baabd6705cc8e87d4\"",
+				"Size": "3680",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar07.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"f3c28671b110e63d4234c8569296618c\"",
+				"Size": "39527",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar08.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"70bfb67d929ad18869ae52a0a9f6ecb1\"",
+				"Size": "9311",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar09.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"0a1cbef3035895543fd7bc38a17e97a5\"",
+				"Size": "24391",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/article/ar10.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"92f1eb2dd3219dde072f06d55f23f26b\"",
+				"Size": "47656",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/author.png",
+				"LastModified": "2018-11-13T23:39:20.000Z",
+				"ETag": "\"821fd1e65b3916ae0fedae69d81b7cd6\"",
+				"Size": "346165",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b01.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"d1e6ea00a1cffc3169d5eee179b960ff\"",
+				"Size": "39301",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b02.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"cdf31821b289d229c03f02340de9a544\"",
+				"Size": "7402",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b03.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"2cf9d02fa956737bc671297d30aa52b5\"",
+				"Size": "12147",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b04.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"90d3add751eba59333fa848e2ce9ddd5\"",
+				"Size": "96385",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b05.png",
+				"LastModified": "2018-11-24T02:52:18.000Z",
+				"ETag": "\"5976e4856f8371ebef4b3e17a8dde345\"",
+				"Size": "27226",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b06.png",
+				"LastModified": "2018-11-24T02:52:19.000Z",
+				"ETag": "\"1839936cb65673b022f9292e112b7c43\"",
+				"Size": "34578",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b07.png",
+				"LastModified": "2018-11-24T02:52:19.000Z",
+				"ETag": "\"4ddedb12469fcdb4af082086ff7bc77f\"",
+				"Size": "50923",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b08.png",
+				"LastModified": "2018-11-24T02:52:19.000Z",
+				"ETag": "\"d30e03795f6a9278c6b931af19555ac8\"",
+				"Size": "20592",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b09.png",
+				"LastModified": "2018-11-24T02:52:19.000Z",
+				"ETag": "\"f62e62256a7d418493f739b73ff53cfc\"",
+				"Size": "16604",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/b10.png",
+				"LastModified": "2018-11-24T02:52:19.000Z",
+				"ETag": "\"06412d3379e06f372f0444070e937303\"",
+				"Size": "9059",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/banner/banner_bg.png",
+				"LastModified": "2018-11-24T02:52:19.000Z",
+				"ETag": "\"21461e599b0df9518c7945f14d8260de\"",
+				"Size": "11133",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear/",
+				"LastModified": "2018-11-24T03:55:05.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear/bear01.png",
+				"LastModified": "2018-11-24T03:55:05.000Z",
+				"ETag": "\"b30dcad988280d852fdcde8317a77b15\"",
+				"Size": "3370",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear/bear02.png",
+				"LastModified": "2018-11-24T03:55:05.000Z",
+				"ETag": "\"caf5d432b5a0ad7ca4c8817750af7d32\"",
+				"Size": "3973",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear/bear03.png",
+				"LastModified": "2018-11-24T03:55:05.000Z",
+				"ETag": "\"eaa55fa53c5bbb0bcd001fe41c0a4078\"",
+				"Size": "4792",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear/bear04.png",
+				"LastModified": "2018-11-24T03:55:05.000Z",
+				"ETag": "\"d46f6303b22469b662da8abcf5162471\"",
+				"Size": "4541",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear/bear05.png",
+				"LastModified": "2018-11-24T06:09:25.000Z",
+				"ETag": "\"79e5faba9fd20cf8f81df3c8c62e44e2\"",
+				"Size": "1683",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear01.png",
+				"LastModified": "2018-11-18T14:55:10.000Z",
+				"ETag": "\"b30dcad988280d852fdcde8317a77b15\"",
+				"Size": "3370",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear02.png",
+				"LastModified": "2018-11-18T14:55:10.000Z",
+				"ETag": "\"caf5d432b5a0ad7ca4c8817750af7d32\"",
+				"Size": "3973",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear03.png",
+				"LastModified": "2018-11-18T14:55:10.000Z",
+				"ETag": "\"eaa55fa53c5bbb0bcd001fe41c0a4078\"",
+				"Size": "4792",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/bear04.png",
+				"LastModified": "2018-11-18T15:00:24.000Z",
+				"ETag": "\"d46f6303b22469b662da8abcf5162471\"",
+				"Size": "4541",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/gzh-code.png",
+				"LastModified": "2018-11-11T10:25:25.000Z",
+				"ETag": "\"821b15c0f64241fbcec7a2f90aed4064\"",
+				"Size": "12077",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/qq.png",
+				"LastModified": "2018-11-12T09:26:48.000Z",
+				"ETag": "\"9df04a9f23714f3f78e6df804fd241ca\"",
+				"Size": "7244",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/applets-static/sponsor.png",
+				"LastModified": "2018-11-13T23:38:29.000Z",
+				"ETag": "\"f8d6ae17a000cdacce3c4293f7200476\"",
+				"Size": "43707",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/",
+				"LastModified": "2018-11-11T03:45:06.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/AngularJS实战.png",
+				"LastModified": "2018-11-11T03:58:34.000Z",
+				"ETag": "\"101dcdf0f5637abf3b9c02de31b6222e\"",
+				"Size": "24341",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/AngularJS权威教程(中文版).png",
+				"LastModified": "2018-11-11T03:58:34.000Z",
+				"ETag": "\"f0a5a26d4aa6f25999f5f3e53226a20f\"",
+				"Size": "55597",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/HTML5与CSS3基础教程（第8版）.png",
+				"LastModified": "2018-11-11T03:58:34.000Z",
+				"ETag": "\"8c2b793d6277b8c9d7d586530b7a7f8b\"",
+				"Size": "15605",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/JavaScriptDOM编程艺术第2版.png",
+				"LastModified": "2018-11-11T03:45:34.000Z",
+				"ETag": "\"f6517c364958fcef81387ec4b8387eec\"",
+				"Size": "64388",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/JavaScript权威指南(第6版).png",
+				"LastModified": "2018-11-11T03:58:35.000Z",
+				"ETag": "\"4e070e5bb3a985c89e023ee8db2deff7\"",
+				"Size": "4320",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/JavaScript设计模式.png",
+				"LastModified": "2018-11-12T07:53:04.000Z",
+				"ETag": "\"7c2cc962bffb5f542e72213f8f5e1a34\"",
+				"Size": "45641",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/JavaScript设计模式与开发实践.png",
+				"LastModified": "2018-11-26T06:40:40.000Z",
+				"ETag": "\"38e5743c1d15ed87b2c4952740dabf27\"",
+				"Size": "104604",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/Node Web开发.png",
+				"LastModified": "2018-11-11T03:58:37.000Z",
+				"ETag": "\"efee29155255e6b86a296c569360a433\"",
+				"Size": "30511",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/Node.js入门经典.png",
+				"LastModified": "2018-11-11T03:58:38.000Z",
+				"ETag": "\"df20de2ebbb79566e35f9a01abcaa328\"",
+				"Size": "33517",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/Oreilly.Ajax.The.Definitive.Guide.Jan.2008.png",
+				"LastModified": "2018-11-11T03:58:38.000Z",
+				"ETag": "\"d6523f316eac4a84aa105e20e76084c8\"",
+				"Size": "31063",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/TCP-IP详解卷2：实现.png",
+				"LastModified": "2018-11-11T03:58:38.000Z",
+				"ETag": "\"dd5d4657466d6a54531ec642ed185207\"",
+				"Size": "66128",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/Vue.js权威指南-压缩版.png",
+				"LastModified": "2018-12-07T04:47:37.000Z",
+				"ETag": "\"6b027f337c28e76c54de45f0be00e3bf\"",
+				"Size": "147246",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/WebGL编程指南.png",
+				"LastModified": "2018-11-11T03:45:34.000Z",
+				"ETag": "\"ccbd7ebd432f2cb22e2e7eb7a88d3ff1\"",
+				"Size": "54098",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/Web安全开发指南.png",
+				"LastModified": "2018-11-11T03:58:38.000Z",
+				"ETag": "\"ba1cdc549d3e4641d0c8370bcffd75f6\"",
+				"Size": "21736",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/jQuery权威指南.png",
+				"LastModified": "2018-11-11T03:58:36.000Z",
+				"ETag": "\"2f9d0523a4a6838a1cd54fce923cc073\"",
+				"Size": "28173",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/javascript高级程序设计.png",
+				"LastModified": "2018-11-11T03:58:35.000Z",
+				"ETag": "\"2be5dcdbfe800742a2af0e261a25a40a\"",
+				"Size": "51697",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/前端架构设计中文.png",
+				"LastModified": "2018-11-11T03:58:48.000Z",
+				"ETag": "\"271b9666d57a54b4e4ef6815e728a2a7\"",
+				"Size": "18743",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/响应式Web设计 HTML5和CSS3实战 第2版.png",
+				"LastModified": "2018-11-11T03:58:51.000Z",
+				"ETag": "\"ed73c01d42f423a31defa25bf89891b6\"",
+				"Size": "32128",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/大话数据结构.png",
+				"LastModified": "2018-11-11T03:58:43.000Z",
+				"ETag": "\"c9feb85108046a385df1e183b53f8aa2\"",
+				"Size": "40622",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/学习JavaScript数据结构与算法.png",
+				"LastModified": "2018-11-11T03:58:51.000Z",
+				"ETag": "\"470cdc2a6c306fe03c09fe33e97bb12b\"",
+				"Size": "53578",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/数据结构与算法JavaScript描述.png",
+				"LastModified": "2018-11-12T07:50:06.000Z",
+				"ETag": "\"32efcdfa14006814bf847462c3d073a0\"",
+				"Size": "30564",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/正则表达式必知必会.png",
+				"LastModified": "2018-11-11T03:58:51.000Z",
+				"ETag": "\"9ed886bf078542d20ccb3b7f4dc3dba2\"",
+				"Size": "5123",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/深入React技术栈.png",
+				"LastModified": "2018-11-11T03:58:48.000Z",
+				"ETag": "\"c834ecd2f3d9c20fc7dcfaebc0eecde3\"",
+				"Size": "27507",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/深入学习MongoDB.png",
+				"LastModified": "2018-11-11T03:58:49.000Z",
+				"ETag": "\"c8c8014e04237f25bffb3b5bcbb49bfc\"",
+				"Size": "49313",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/深入浅出Rxjs.png",
+				"LastModified": "2018-12-09T02:32:08.000Z",
+				"ETag": "\"732b1156b4b0421ed6f0e7ee37c38c99\"",
+				"Size": "51486",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/算法谜题.png",
+				"LastModified": "2018-11-11T03:58:50.000Z",
+				"ETag": "\"de2dc8cd36086c9990ac4952370a2c91\"",
+				"Size": "21928",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/精通D3.js交互式数据可视化高级编程.png",
+				"LastModified": "2018-11-11T03:58:45.000Z",
+				"ETag": "\"38dd99e76164fef6f192a77a604a2148\"",
+				"Size": "32215",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/精通Git 第二版 中文版_v2.1.8_ZeroD.png",
+				"LastModified": "2018-11-11T03:58:46.000Z",
+				"ETag": "\"555cc3a985684b2ca3726a1e4820cb9e\"",
+				"Size": "41340",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/精通JavaScript开发.png",
+				"LastModified": "2018-11-11T03:58:47.000Z",
+				"ETag": "\"7f48db024edcd491768faf2d41cb666e\"",
+				"Size": "25407",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/线性代数应该这样学.png",
+				"LastModified": "2018-11-11T03:58:50.000Z",
+				"ETag": "\"95fe725bfc4da0ae481f95188853af71\"",
+				"Size": "47059",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/经典思维50法.png",
+				"LastModified": "2018-11-11T03:58:44.000Z",
+				"ETag": "\"e634843965ba1d664c055717e4d25fc2\"",
+				"Size": "14535",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/编写高质量代码--Web前端开发修炼之道.png",
+				"LastModified": "2018-11-11T03:58:40.000Z",
+				"ETag": "\"c370f01ce661447ff8f6a56036bb3deb\"",
+				"Size": "41816",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/计算机科学的基础.png",
+				"LastModified": "2018-11-11T03:58:44.000Z",
+				"ETag": "\"41133ff6854882efc29cf42e3d060596\"",
+				"Size": "34198",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/frontend/锋利的jQuery.png",
+				"LastModified": "2018-11-11T03:58:43.000Z",
+				"ETag": "\"49e1a05c84d718088e4601f6b37dcac1\"",
+				"Size": "21934",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/",
+				"LastModified": "2018-11-11T08:07:42.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/Java并发编程实战.png",
+				"LastModified": "2018-11-11T09:21:53.000Z",
+				"ETag": "\"0b53e9ad857ab01d2370c924cd8db1d1\"",
+				"Size": "44168",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/Java性能权威指南.png",
+				"LastModified": "2018-11-11T09:21:54.000Z",
+				"ETag": "\"377f9b1a2294955cff05e19aac53384a\"",
+				"Size": "33890",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/MySQL高性能书籍_第3版（中文）.png",
+				"LastModified": "2018-11-11T09:21:54.000Z",
+				"ETag": "\"e55749cec2b5a11885e5745efa4d016f\"",
+				"Size": "5287",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/SpringBoot实战第4版清晰版.png",
+				"LastModified": "2018-11-20T04:43:43.000Z",
+				"ETag": "\"41dd45e83d7b68ac3f523d2a73e39fa7\"",
+				"Size": "119710",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/dubbo-用户指南.png",
+				"LastModified": "2018-11-11T09:21:53.000Z",
+				"ETag": "\"ae5d0e3fc7e2e743b6fc832e3179b32c\"",
+				"Size": "10558",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/看透Spring MVC源代码分析与实践.png",
+				"LastModified": "2018-11-11T09:55:48.000Z",
+				"ETag": "\"61e1cff3f29646e0c699421dcffa82fa\"",
+				"Size": "27932",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/阿里巴巴Java开发手册1.4.png",
+				"LastModified": "2018-11-20T04:43:47.000Z",
+				"ETag": "\"0fd7a1453b39c6287383da67b15f8400\"",
+				"Size": "49155",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/java/鸟哥的Linux私房菜基础篇第三版.png",
+				"LastModified": "2018-11-11T09:21:54.000Z",
+				"ETag": "\"ea40ca1b8477a959e898bdc7a3e7e88c\"",
+				"Size": "5090",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/",
+				"LastModified": "2018-11-19T14:07:39.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/",
+				"LastModified": "2018-11-19T14:11:56.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/article-list.json",
+				"LastModified": "2018-12-29T06:01:44.000Z",
+				"ETag": "\"af9660520e98fdc0649c5f5814894d1a\"",
+				"Size": "14177",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/banner.json",
+				"LastModified": "2019-01-17T13:28:21.000Z",
+				"ETag": "\"8b65a6bb6a0c219ffa38c72c60dddea7\"",
+				"Size": "3319",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/books-category.json",
+				"LastModified": "2018-11-20T04:35:02.000Z",
+				"ETag": "\"c45df19eedbd3763dfa6fd4edc7d80a5\"",
+				"Size": "511",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/books-frontend-list.json",
+				"LastModified": "2018-12-09T02:32:38.000Z",
+				"ETag": "\"d398815c5ca612b3d7d1d804f6354821\"",
+				"Size": "7167",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/books-java-list.json",
+				"LastModified": "2018-12-09T02:32:38.000Z",
+				"ETag": "\"0c223b33e9b148621a217fd5f4b7ee9e\"",
+				"Size": "1853",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/service/read-data/books-test-list.json",
+				"LastModified": "2018-12-09T02:32:38.000Z",
+				"ETag": "\"f57535d12c5b2fb2f051f7ad7fbf7145\"",
+				"Size": "1246",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/test/",
+				"LastModified": "2018-11-11T08:07:47.000Z",
+				"ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+				"Size": "0",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/test/PYTHON WEB开发学习实录.png",
+				"LastModified": "2018-11-11T09:21:55.000Z",
+				"ETag": "\"e035b64186ae213471462bc8930cdeeb\"",
+				"Size": "42030",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/test/PYTHON网络编程基础.png",
+				"LastModified": "2018-11-11T09:21:55.000Z",
+				"ETag": "\"133164e5693635068733d866881d3c55\"",
+				"Size": "50251",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/test/Python编程：从入门到实践.png",
+				"LastModified": "2018-11-11T09:21:55.000Z",
+				"ETag": "\"ade44a112b3bb41a12716a6270e653e7\"",
+				"Size": "29025",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/test/大型网站技术架构：核心原理与案例分析.png",
+				"LastModified": "2018-11-11T09:21:55.000Z",
+				"ETag": "\"1dc0ce046379d393c1fe928b7218c589\"",
+				"Size": "51030",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			},
+			{
+				"Key": "read-static/test/持续集成软件质量改进和风险降低之道.png",
+				"LastModified": "2018-11-11T09:21:55.000Z",
+				"ETag": "\"bfbd62161bb3a0e8af7b5a85e7090499\"",
+				"Size": "19877",
+				"Owner": {
+					"ID": "1256758960",
+					"DisplayName": "1256758960"
+				},
+				"StorageClass": "STANDARD"
+			}
+		]
+	}
+}
