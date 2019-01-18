@@ -52,6 +52,7 @@
 <div id="total"></div>
 <div id="output"></div>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://cdn.bootcss.com/randomcolor/0.4.4/randomColor.js"></script>
 <script type="text/babel">
   function parseData(books) {
     const contents = books.ListBucketResult.Contents
@@ -79,7 +80,12 @@
       a.appendChild(text)
       a.setAttribute('href', item)
       a.setAttribute('target', '_blank')
-      a.setAttribute('style', `color:${randomHexColor()}`)
+      const color = randomColor({
+            hue: 'random',
+            count: 1,
+            luminosity: 'dark'
+        })
+      a.setAttribute('style', `color:${color}`)
       root.appendChild(a)
       root.appendChild(document.createElement('br'))
     })
