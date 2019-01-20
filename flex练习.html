@@ -9,9 +9,10 @@
   <style>
     html,
     body {
-      height: 100%;
       background: #F4F5D6;
+      height: 100%;
       font-family: 'Microsoft Yahei', sans-serif;
+      /* scroll-behavior: smooth; */
     }
 
     body {
@@ -113,10 +114,11 @@
   <h1>Flex 布局练习</h1>
   <p>
     参考链接<br>
+    <a target="_blank" href="http://flexboxfroggy.com/">这个青蛙游戏不错，可以试试</a><br>
+    <a target="_blank" href="https://www.zhangxinxu.com/wordpress/2018/10/display-flex-css3-css/">写给自己看的display:
+      flex布局教程</a><br>
     <a target="_blank" href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html</a><br>
     <a target="_blank" href="http://static.vgee.cn/static/index.html">http://static.vgee.cn/static/index.html</a><br>
-    <a target="_blank" href="https://github.com/JailBreakC/flex-box-demo/blob/master/index.html">https://github.com/JailBreakC/flex-box-demo/blob/master/index.html</a><br>
-    <a target="_blank" href="https://github.com/JailBreakC/flex-box-demo/blob/master/style.css">https://github.com/JailBreakC/flex-box-demo/blob/master/style.css</a><br>
   </p>
   <h2>
     容器的属性
@@ -246,19 +248,610 @@
     <div class="item color-4">4</div>
   </div>
   <!-- ================================= -->
-<h3>3. flex-flow</h3>
-<p>flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。<br>
-  .box {
-    flex-flow: <flex-direction> || <flex-wrap>;
-  }
+  <h3>3. flex-flow</h3>
+  <p>flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。<br>
+    .box {
+    flex-flow: &lt;flex-direction&gt; || &lt;flex-wrap&gt;;
+    }
+  </p>
+  <pre>
+  <code class="css">
+    .box {
+      display: flex;
+      flex-flow: row-reverse wrap-reverse;
+    }
+  </code>
+</pre>
+  <div class="box" style="flex-flow: row-reverse wrap-reverse; width:420px;">
+    <div class="item color-1">1</div>
+    <div class="item color-2">2</div>
+    <div class="item color-3">3</div>
+    <div class="item color-4">4</div>
+  </div>
+  <!-- ================================= -->
+  <h3>4. justify-content</h3>
+  <p>justify-content属性定义了项目在主轴上的对齐方式。</p>
+  <p>.box {
+    justify-content: flex-start(默认值) | flex-end | center | space-between | space-around;
+    }</p>
+  <p>它可能取5个值，具体对齐方式与轴的方向有关。下面假设主轴为从左到右。</p>
+  <pre>
+  <code class="css">
+    flex-start（默认值）：左对齐
+    flex-end：右对齐
+    center： 居中
+    space-between：两端对齐，项目之间的间隔都相等。
+    space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+  </code>
+</pre>
+  <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        justify-content: flex-start;
+      }
+    </code>
+  </pre>
+  <div class="box" style="justify-content: flex-start;">
+    <div class="item color-1" style="width: 15%;">1</div>
+    <div class="item color-2" style="width: 15%;">2</div>
+    <div class="item color-3" style="width: 15%;">3</div>
+    <div class="item color-4" style="width: 15%;">4</div>
+  </div>
+  <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          justify-content: flex-end;
+        }
+      </code>
+    </pre>
+  <div class="box" style="justify-content: flex-end;">
+    <div class="item color-1" style="width: 15%;">1</div>
+    <div class="item color-2" style="width: 15%;">2</div>
+    <div class="item color-3" style="width: 15%;">3</div>
+    <div class="item color-4" style="width: 15%;">4</div>
+  </div>
+  <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          justify-content: center;
+        }
+      </code>
+    </pre>
+  <div class="box" style="justify-content: center;">
+    <div class="item color-1" style="width: 15%;">1</div>
+    <div class="item color-2" style="width: 15%;">2</div>
+    <div class="item color-3" style="width: 15%;">3</div>
+    <div class="item color-4" style="width: 15%;">4</div>
+  </div>
+  <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          justify-content: space-between;
+        }
+      </code>
+    </pre>
+  <div class="box" style="justify-content: space-between;">
+    <div class="item color-1" style="width: 15%;">1</div>
+    <div class="item color-2" style="width: 15%;">2</div>
+    <div class="item color-3" style="width: 15%;">3</div>
+    <div class="item color-4" style="width: 15%;">4</div>
+  </div>
+  <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          justify-content: space-around;
+        }
+      </code>
+    </pre>
+  <div class="box" style="justify-content: space-around;">
+    <div class="item color-1" style="width: 15%;">1</div>
+    <div class="item color-2" style="width: 15%;">2</div>
+    <div class="item color-3" style="width: 15%;">3</div>
+    <div class="item color-4" style="width: 15%;">4</div>
+  </div>
+  <!-- ================================= -->
+  <h3>5. align-items</h3>
+  <p>align-items属性定义项目在交叉轴上如何对齐。</p>
+  <p>.box {
+    align-items: flex-start | flex-end | center | baseline | stretch;
+    }</p>
+  <p>它可能取5个值。具体的对齐方式与交叉轴的方向有关，下面假设交叉轴从上到下。</p>
+  <p>
+    <code class="css">
+      flex-start：交叉轴的起点对齐。
+      flex-end：交叉轴的终点对齐。
+      center：交叉轴的中点对齐。
+      baseline: 项目的第一行文字的基线对齐。
+      stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
+    </code>
+    <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        align-items: flex-start;
+      }
+    </code>
+  </pre>
+    <div class="box" style="align-items: flex-start; flex-wrap: wrap; height: 800px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2">2</div>
+      <div class="item color-3">3</div>
+      <div class="item color-4">4</div>
+      <div class="item color-5">5</div>
+      <div class="item color-6">6</div>
+      <div class="item color-7">7</div>
+      <div class="item color-8">8</div>
+    </div>
+    <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        align-items: flex-end;
+      }
+    </code>
+  </pre>
+    <div class="box" style="align-items: flex-end; height: 300px;">
+      <div class="item color-1" style="height: 50%; line-height:initial;">1</div>
+      <div class="item color-2" style="height: 50%; line-height:initial;">2</div>
+      <div class="item color-3" style="height: 50%; line-height:initial;">3</div>
+      <div class="item color-4" style="height: 50%; line-height:initial;">4</div>
+    </div>
 
-</p>
-  <footer>End</footer>
+    <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        align-items: center;
+      }
+    </code>
+  </pre>
+    <div class="box" style="align-items: center; height: 300px;">
+      <div class="item color-1" style="height: 50%; line-height:initial;">1</div>
+      <div class="item color-2" style="height: 50%; line-height:initial;">2</div>
+      <div class="item color-3" style="height: 50%; line-height:initial;">3</div>
+      <div class="item color-4" style="height: 50%; line-height:initial;">4</div>
+    </div>
+    <pre>
+    <code class="css">
+      .box {
+        display: flex;
+        align-items: baseline;
+      }
+    </code>
+  </pre>
+    <div class="box" style="align-items: baseline; height: 300px;">
+      <div class="item color-1" style="height: 60%; line-height:initial; text-decoration: underline; margin-top: 30px;">x</div>
+      <div class="item color-2" style="height: 30%; line-height:initial; text-decoration: underline;margin-top: 30px;">2</div>
+      <div class="item color-3" style="height: 70%; line-height:initial;text-decoration: underline;">3</div>
+      <div class="item color-4" style="height: 90%; line-height:initial;text-decoration: underline;">4</div>
+    </div>
+    <pre>
+      <code class="css">
+        .box {
+          display: flex;
+          align-items: stretch;
+        }
+      </code>
+    </pre>
+    <div class="box" style="align-items: stretch; height: 300px;">
+      <div class="item color-1" style="height: initial; line-height:initial;">1</div>
+      <div class="item color-2" style="height: auto; line-height:initial;">2</div>
+      <div class="item color-3" style="height: initial; line-height:initial;">3</div>
+      <div class="item color-4" style="height: initial; line-height:initial;">4</div>
+    </div>
+    <!-- ================================= -->
+    <h3>6. align-content</h3>
+    <p>aalign-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。 </p>
+    <p>.box {
+      align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+      }</p>
+    <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+          }
+        </code>
+      </pre>
+    <div class="box" style="align-content: flex; flex-wrap:wrap; height: 800px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2">2</div>
+      <div class="item color-3">3</div>
+      <div class="item color-4">4</div>
+      <div class="item color-5">5</div>
+      <div class="item color-6">6</div>
+      <div class="item color-7">7</div>
+      <div class="item color-8">8</div>
+    </div>
+    <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-end;
+          }
+        </code>
+      </pre>
+    <div class="box" style="align-content: flex-end; flex-wrap:wrap; height: 800px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2">2</div>
+      <div class="item color-3">3</div>
+      <div class="item color-4">4</div>
+      <div class="item color-5">5</div>
+      <div class="item color-6">6</div>
+      <div class="item color-7">7</div>
+      <div class="item color-8">8</div>
+    </div>
+    <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+          }
+        </code>
+      </pre>
+    <div class="box" style="align-content: center; flex-wrap:wrap; height: 800px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2">2</div>
+      <div class="item color-3">3</div>
+      <div class="item color-4">4</div>
+      <div class="item color-5">5</div>
+      <div class="item color-6">6</div>
+      <div class="item color-7">7</div>
+      <div class="item color-8">8</div>
+    </div>
+    <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+          }
+        </code>
+      </pre>
+    <div class="box" style="align-content: space-between; flex-wrap:wrap; height: 800px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2">2</div>
+      <div class="item color-3">3</div>
+      <div class="item color-4">4</div>
+      <div class="item color-5">5</div>
+      <div class="item color-6">6</div>
+      <div class="item color-7">7</div>
+      <div class="item color-8">8</div>
+    </div>
+    <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+          }
+        </code>
+      </pre>
+    <div class="box" style="align-content: space-around; flex-wrap:wrap; height: 800px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2">2</div>
+      <div class="item color-3">3</div>
+      <div class="item color-4">4</div>
+      <div class="item color-5">5</div>
+      <div class="item color-6">6</div>
+      <div class="item color-7">7</div>
+      <div class="item color-8">8</div>
+    </div>
+    <pre>
+        <code class="css">
+          .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: stretch;
+          }
+        </code>
+      </pre>
+    <div class="box" style="align-content: stretch; flex-wrap:wrap; height: 500px;">
+      <div class="item color-1" style="height:auto;">1</div>
+      <div class="item color-2" style="height:auto;">2</div>
+      <div class="item color-3" style="height:auto;">3</div>
+      <div class="item color-4" style="height:auto;">4</div>
+      <div class="item color-5" style="height:auto;">5</div>
+    </div>
+    <h2>项目的属性</h2>
+    <p>以下6个属性设置在项目上。</p>
+    <pre><code class="html">
+      order
+      flex-grow
+      flex-shrink
+      flex-basis
+      flex
+      align-self</code></pre>
+    <!-- ================================= -->
+    <h3>1. order</h3>
+    <p>order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。</p>
+    <pre>
+      <code class="css">
+        .item {
+         order: -1
+        }
+      </code>
+    </pre>
+    <div class="box" style="height: 300px;">
+      <div class="item color-1" style="height:auto;">1</div>
+      <div class="item color-2" style="height:auto;">2</div>
+      <div class="item color-3" style="height:auto;">3</div>
+      <div class="item color-4" style="order:-1; height:auto;">4<p>(order: -1)</p>
+      </div>
+    </div>
+    <!-- ================================= -->
+    <h3>2. flex-grow</h3>
+    <p>flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。</p>
+    <p>如果所有项目的flex-grow属性都为1，则它们将等分剩余空间（如果有的话）。</p>
+    <p>如果一个项目的flex-grow属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍。
+    </p>
+    <pre>
+      <code class="css">
+          .item {
+            flex-grow: &lt;number&gt;; /* default 0 */
+          }
+      </code>
+    </pre>
+    <div class="box" style="flex-wrap: wrap;">
+      <div class="item color-1" style="flex-grow: 1;width:auto;">1</div>
+      <div class="item color-2" style="flex-grow: 1;width:auto;">2</div>
+      <div class="item color-3" style="flex-grow: 1;width:auto;">3</div>
+    </div>
+    <div class="box" style="flex-wrap: wrap;">
+      <div class="item color-1" style="flex-grow: 1;width:auto;">1</div>
+      <div class="item color-2" style="flex-grow: 2;width:auto;">2</div>
+      <div class="item color-3" style="flex-grow: 1;width:auto;">3</div>
+    </div>
+    <!-- ================================= -->
+    <h3>3. flex-shrink</h3>
+    <p>flex-shrink属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。</p>
+    <p>如果所有项目的flex-shrink属性都为1，当空间不足时，都将等比例缩小。如果一个项目的flex-shrink属性为0，其他项目都为1，则空间不足时，前者不缩小。 </p>
+    <pre>
+      <code class="css">
+      .item {
+        flex-shrink: &lt;number&gt; /* default 1 */
+      }
+      </code>
+    </pre>
+    <div class="box" style="width: 400px;">
+      <div class="item color-1" style="flex-shrink: 1;width:200px;">1</div>
+      <div class="item color-2" style="flex-shrink: 1;width:200px;">2</div>
+      <div class="item color-3" style="flex-shrink: 1;width:200px;">3</div>
+    </div>
+    <div class="box" style="width: 400px;">
+      <div class="item color-1" style="flex-shrink: 1;width:200px;">1</div>
+      <div class="item color-2" style="flex-shrink: 0;width:200px;">2</div>
+      <div class="item color-3" style="flex-shrink: 1;width:200px;">3</div>
+    </div>
+    <!-- ================================= -->
+    <h3>4. flex-basis</h3>
+    <p>flex-basis属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小。</p>
+    <p>这个讲flex-basis 和height的关系可以参考下 https://www.jianshu.com/p/17b1b445ecd4</p>
+    <pre>
+      <code class="css">
+          .item {
+            flex-basis: &lt;length&gt; | auto; /* default auto */
+          }
+      </code>
+    </pre>
+    <div class="box">
+      <div class="item color-1" style="flex-basis: 100px;width: 200px;">1</div>
+      <div class="item color-2" style="flex-basis: 200px;width: 100px;">2</div>
+      <div class="item color-3" style="flex-basis: 300px;width: 100px;">3</div>
+    </div>
+    <!-- ================================= -->
+    <h3>5. flex</h3>
+    <p>flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。</p>
+    <p>该属性有两个快捷值：auto (1 1 auto) 和 none (0 0 auto)。
+      建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。</p>
+    <pre>
+      <code class="css">
+          .item {
+            flex: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]
+          }
+      </code>
+    </pre>
+    <pre>
+        <code class="css">
+            .item {
+              flex: auto;
+            }
+        </code>
+      </pre>
+    <div class="box">
+      <div class="item color-1" style="flex: auto;">1</div>
+      <div class="item color-2" style="flex: auto;">2</div>
+      <div class="item color-3" style="flex: auto;">3</div>
+    </div>
+    <!-- ================================= -->
+    <h3>6. align-self</h3>
+    <p>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。</p>
+    <p>该属性可能取6个值，除了auto，其他都与align-items属性完全一致。</p>
+    <pre>
+      <code class="css">
+          .item {
+            align-self: auto | flex-start | flex-end | center | baseline | stretch;
+          }
+      </code>
+    </pre>
+    <pre>
+        <code class="css">
+            .item {
+              align-self: flex-end;
+            }
+        </code>
+      </pre>
+    <div class="box" style="align-items: flex-start; height: 300px;">
+      <div class="item color-1">1</div>
+      <div class="item color-2" style="align-self: flex-end;">2</div>
+      <div class="item color-3">3</div>
+    </div>
+    <!-- ================================= -->
+    <style>
+      #catalog {
+        width: 300px;
+        height: 400px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, .8);
+        border-radius: 20px;
+        border: solid 10px #FFD200;
+        box-shadow: 0 0 50px #000;
+        padding: 20px;
+        color: #000;
+        position: fixed;
+        right: 0;
+        bottom: 50px;
+        transition: transform .3s;
+        transform: translateX(280px);
+      }
+
+      #catalog:hover {
+        transform: translateX(0)
+      }
+
+      #progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 100%;
+        border: 1px solid #FFD200;
+      }
+    </style>
+    <div id="progress"></div>
+    <div id="catalog">目录生成中...</div>
+    <footer>End</footer>
 </body>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/styles/monokai-sublime.min.css">
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/highlight.min.js"></script>
+<style>
+  .h1,
+  .h2,
+  .h3 {
+    cursor: pointer;
+  }
+
+  .h2 {
+    padding-left: 20px;
+  }
+
+  .h3 {
+    padding-left: 40px;
+  }
+
+  .h1:hover,
+  .h2:hover,
+  .h3:hover {
+    background: #FFD200;
+  }
+</style>
 <script>
-  hljs.initHighlightingOnLoad();
+  hljs.initHighlightingOnLoad()
+
+  // https://www.zhangxinxu.com/wordpress/2017/01/share-a-animation-algorithm-js/
+  if (!window.requestAnimationFrame) {
+    requestAnimationFrame = function (fn) {
+      setTimeout(fn, 17)
+    }
+  }
+
+  Math.easeout = function (origin, target, rate, callback) {
+    if (origin == target || typeof origin != 'number' || typeof target != 'number') {
+      return
+    }
+    target = target || 0
+    rate = rate || 2
+    var direction = origin > target
+    var step = function () {
+      origin = origin + (target - origin) / rate
+
+      if ((direction && origin < target + 1) || (!direction && origin > target - 1)) {
+        callback(target, true)
+        return
+      }
+      callback(origin, false)
+      requestAnimationFrame(step)
+    }
+    step()
+  }
+
+  function initCatalog() {
+    function autoScroll(height) {
+      return () => {
+        var doc = document.body.scrollTop ? document.body : document.documentElement
+        Math.easeout(doc.scrollTop, height, 4, value => {
+          doc.scrollTop = value
+        })
+      }
+    }
+    var catalog = document.getElementById('catalog')
+    catalog.innerHTML = ''
+    var h1 = document.querySelectorAll('h1')
+    var h2 = document.querySelectorAll('h2')
+    var h3 = document.querySelectorAll('h3')
+
+    var divs = []
+    h1.forEach(item => {
+      var div = document.createElement('div')
+      div.setAttribute("class", "h1")
+      div.innerHTML = item.innerText
+      div._top = item.offsetTop
+      div.onclick = autoScroll(item.offsetTop)
+      divs.push(div)
+    })
+    h2.forEach(item => {
+      var div = document.createElement('div')
+      div.setAttribute("class", "h2")
+      div.innerHTML = item.innerText
+      div._top = item.offsetTop
+      div.onclick = autoScroll(item.offsetTop)
+      divs.push(div)
+    })
+    h3.forEach(item => {
+      var div = document.createElement('div')
+      div.setAttribute("class", "h3")
+      div.innerHTML = item.innerText
+      div._top = item.offsetTop
+      div.onclick = autoScroll(item.offsetTop)
+      divs.push(div)
+    })
+    divs.sort((a, b) => {
+      return a._top - b._top
+    })
+    divs.forEach(item => {
+      catalog.appendChild(item)
+    })
+  }
+
+  window.onload = function () {
+    setTimeout(initCatalog, 500)
+  }
+  window.addEventListener('resize', () => {
+    initCatalog()
+  })
+
+  window.addEventListener('scroll', () => {
+    // https://blog.csdn.net/gang456789/article/details/78119097
+    // document body scrollTop的值总为零的解决
+    var doc = document.body.scrollTop ? document.body : document.documentElement
+    var progress = document.getElementById('progress')
+    var top = doc.scrollTop
+    var width = 'width: 0'
+    if (top && doc.scrollHeight - doc.offsetHeight) {
+      // offsetHeight 这个必须同时把body的高度设置成100%
+      var p = Math.round((top / (doc.scrollHeight - doc.offsetHeight)).toFixed(2) * 100) + '%'
+      width = 'width:' + p
+    }
+    progress.setAttribute('style', width)
+  })
 </script>
 
 </html>
