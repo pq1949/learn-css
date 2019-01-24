@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+/* 浮动 */
+  /* dl {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 5px 0 gray;
+    font-size: 15px;
+    line-height: 20px;
+    overflow: hidden;
+  }
+  dl::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  dt {
+   float: left;
+   clear: right;
+   background: red;
+  }
+  dd {
+    float: right;
+  } */
+
+ /* flex  */
+  /* dl {
+    margin: 0 auto;
+    width: 500px;
+    height: 120px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 5px 0 gray;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  dt,dd{
+    width:250px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  dt {
+    padding-left: 15px;
+  }
+  dd {
+    text-align: right;
+    padding-right: 15px;
+  } */
+
+/* 浮动 */
+/* dl{
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+dl:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+dt {
+    float: left;
+    clear: right;
+}
+
+dd {
+    float: right;
+} */
+
+
+/* inline-block */
+/* dl {
+    padding: 5px;
+    border: 1px solid #999;
+    font-size: 0;
+}
+
+dt, dd {
+    display: inline-block;
+    width: 50%;
+    font-size: 12px;
+}
+
+dd {
+    margin-inline-start: 0;
+    text-align: right;
+} */
+
+ /* absolute */
+/* dl {
+    padding: 5px;
+    border: 1px solid #999;
+}
+dt { position: absolute; }
+dd {text-align: right; } */
+
+/* margin */
+/* dl {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  line-height: 1.5;
+}
+dd {
+  text-align: right;
+  margin: -1.5em 0 0 5em;
+} */
+
+/* grid */
+dl {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  line-height: 1.5;
+}
+dl {
+   display: grid;
+   grid-template-columns: auto 1fr;
+   line-height: 30px;
+}
+dd {
+   text-align: right;
+}
+
+</style>
+<body>
+  <dl>
+    <dt>手机系统</dt>
+    <dd>Android</dd>
+    <dt>登录方式</dt>
+    <dd>QQ互联登录</dd>
+    <dt>绑定时间</dt>
+    <dd>2019-01-02 11:10</dd>
+    <dt>绑定状态</dt>
+    <dd>有效</dd>
+  </dl>
+</body>
+</html>
