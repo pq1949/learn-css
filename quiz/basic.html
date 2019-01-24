@@ -7,13 +7,18 @@
   <title>Document</title>
 </head>
 <style>
+
+dd:empty::before {
+  content:'-';
+  color: #999;
+}
 /* 浮动 */
-  /* dl {
+  dl {
     margin: 0 auto;
-    width: 500px;
     border: 1px solid gray;
     box-shadow: 0 2px 5px 0 gray;
     font-size: 15px;
+    min-width: 300px;
     line-height: 20px;
     overflow: hidden;
   }
@@ -26,10 +31,14 @@
    float: left;
    clear: right;
    background: red;
+   width: 5em;
   }
   dd {
     float: right;
-  } */
+    text-align: right;
+    margin: 0;
+    width: calc(100% - 5em);
+  }
 
  /* flex  */
   /* dl {
@@ -117,7 +126,7 @@ dd {
 } */
 
 /* grid */
-dl {
+/* dl {
   border: 1px solid #ccc;
   background-color: #fff;
   padding: 10px;
@@ -130,7 +139,7 @@ dl {
 }
 dd {
    text-align: right;
-}
+} */
 
 </style>
 <body>
