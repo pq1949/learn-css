@@ -5,3 +5,8 @@
 1. [三栏布局](https://pq1949.github.io/learn-css/三栏布局.html)
 2. [flex练习](https://pq1949.github.io/learn-css/flex练习.html)
 3. [quiz-basic](https://pq1949.github.io/learn-css/quiz/basic.html)
+
+
+# 背景收集
+
+1. [渐变背景](https://pq1949.github.io/learn-css/html-demo/gradual-bg.html)
