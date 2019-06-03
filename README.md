@@ -9,4 +9,8 @@
 
 # 背景收集
 
-1. [渐变背景](https://pq1949.github.io/learn-css/html-demo/gradual-bg.html)
+1. [渐变背景](https://pq1949.github.io/learn-css/htmlDemo/gradualBg.html)
+
+# 字体收集
+
+1. [demo1](https://pq1949.github.io/learn-css/fontDemo/font.html)
