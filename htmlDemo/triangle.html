@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>wiki的三角和阴影样式</title>
+</head>
+<!-- https://zh.wikipedia.org/wiki/%E5%8D%8F%E8%B0%83%E4%B8%96%E7%95%8C%E6%97%B6 -->
+<style>
+  body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .demo-wrapper {
+    margin: auto;
+    border: 1px dotted royalblue;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: white;
+  }
+
+  .demo {
+    border: 1px solid black;
+    height:300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ce3e75;
+    position: relative;
+  }
+/* =========== */
+  .top::before {
+    content: '';
+    position: absolute;
+    border: 9px solid #0000;
+    border-top: 0;
+    border-bottom: 9px solid #ce3e75;
+    top: -9px;
+    left: 13px;
+    z-index: 111;
+  }
+
+  .top::after {
+    content: '';
+    position: absolute;
+    border: 12px solid #0000;
+    border-top: 0;
+    border-bottom: 12px solid white;
+    top: -8px;
+    left: 10px;
+    z-index: 112;
+  }
+/* ============ */
+  .right::before {
+    content: '';
+    position: absolute;
+    border: 9px solid #0000;
+    border-right: 0;
+    border-left: 9px solid #ce3e75;
+    top: 9px;
+    right: -9px;
+    z-index: 111;
+  }
+
+  .right::after {
+    content: '';
+    position: absolute;
+    border: 12px solid #0000;
+    border-right: 0;
+    border-left: 12px solid white;
+    top: 6px;
+    right: -8px;
+    z-index: 112;
+  }
+
+  /* ============ */
+  .bottom::before {
+    content: '';
+    position: absolute;
+    border: 9px solid #0000;
+    border-bottom: 0;
+    border-top: 9px solid #ce3e75;
+    bottom: -9px;
+    left: 13px;
+    z-index: 111;
+  }
+
+  .bottom::after {
+    content: '';
+    position: absolute;
+    border: 12px solid #0000;
+    border-bottom: 0;
+    border-top: 12px solid white;
+    bottom: -8px;
+    left: 10px;
+    z-index: 112;
+  }
+
+  /* ============ */
+  .left::before {
+    content: '';
+    position: absolute;
+    border: 9px solid #0000;
+    border-left: 0;
+    border-right: 9px solid #ce3e75;
+    bottom: 9px;
+    left: -9px;
+    z-index: 111;
+  }
+
+  .left::after {
+    content: '';
+    position: absolute;
+    border: 12px solid #0000;
+    border-left: 0;
+    border-right: 12px solid white;
+    bottom: 6px;
+    left: -8px;
+    z-index: 112;
+  }
+
+  .shadow:hover {
+    -webkit-box-shadow: 0 30px 90px -20px rgba(0,0,0,0.3), 0 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 30px 90px -20px rgba(0,0,0,0.3), 0 0 1px 1px rgba(0,0,0,0.05);
+    border-radius: 2px;
+  }
+</style>
+
+<body>
+  <div class='demo-wrapper'>
+    <div class="demo top shadow">
+      top
+    </div>
+    <div class="demo right shadow">
+      right
+    </div>
+    <div class="demo bottom shadow">
+      bottom
+    </div>
+    <div class="demo left shadow">
+      left
+    </div>
+
+  </div>
+</body>
+
+</html>

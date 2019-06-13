@@ -14,3 +14,6 @@
 # 字体收集
 
 1. [demo1](https://pq1949.github.io/learn-css/fontDemo/font.html)
+
+# 三角和阴影样式
+1. [wiki的三角和阴影样式](https://pq1949.github.io/learn-css/htmlDemo/triangle.html)
